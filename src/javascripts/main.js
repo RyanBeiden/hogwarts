@@ -1,4 +1,8 @@
+import studentList from './components/studentList/studentList';
 import '../styles/main.scss';
-import 'bootstrap';
 
-$('#button').click(() => { console.error('Button works!'); });
+const init = () => {
+  studentList.createStudentList();
+};
+
+init();
